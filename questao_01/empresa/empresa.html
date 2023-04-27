@@ -1,0 +1,14 @@
+<template>
+    <lightning-card>
+        <div class="slds-m-around_medium">
+            <template for:each={pessoa} for:item="p">
+                <h1 key={p.id}>Lead: {p.primeironome}{p.sobrenome}</h1>
+                <p key={p.id}>Idade: {p.idade}</p>
+                <p key={p.id}>Email: {p.email}</p>
+                <p key={p.id}>Classificação: {p.classificacao}</p>
+                <p key={p.id}>Empresa: {p.empresa}</p>
+                <p key={p.id}>Receita anual: {p.receitaanual}</p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

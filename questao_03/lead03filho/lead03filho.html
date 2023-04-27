@@ -1,0 +1,12 @@
+<template>
+    <lightning-card title="">
+        <template for:each={leaddata} for:item="lee">
+            <c-lead03 key={lee.ide} ide={lee.ide} firstname={lee.firstname} lastname={lee.lastname} status={lee.status} phone={lee.phone} email={lee.email} company={lee.company} annualrevenue={lee.annualrevenue}></c-lead03>
+        </template>
+    </lightning-card>
+
+
+
+
+   
+</template>

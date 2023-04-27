@@ -1,0 +1,30 @@
+.lead-data {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.lead-header h1 {
+    font-size: 24px;
+    margin: 0;
+}
+
+.lead-header p {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.lead-body p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+h1{
+ color: blueviolet;
+ font-weight: bold;
+}
+
+span{
+    font-weight: bold;
+}
